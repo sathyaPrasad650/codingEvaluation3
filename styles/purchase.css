@@ -1,0 +1,25 @@
+#navbar {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  padding: 15px;
+  height: 30px;
+}
+#purchased_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  margin-top: 30px;
+  /* width: 75%; */
+  gap: 15px;
+}
+.voucher {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+img {
+  width: 300px;
+}
